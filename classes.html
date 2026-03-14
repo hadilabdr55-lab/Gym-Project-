@@ -3,23 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Classes</title>
+    <title>Classes</title> 
+   <link rel="stylesheet" href="style1.css">
 </head>
-<body>
-     <header>
+<body class="Classes">
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
+        <ul> <li class="nav-logo-wrap" style="display:flex;align-items: center;margin-right: auto;"><a href="index.html" class="nav-logo">
+            <img src="logo.jpg" alt="NeuroFlex">
+        <div>
+            <div class="nav-logo-text">NeuroFlex</div> 
+            <div class="nav-logo-sub">Where Minds Meet. Bodies
+                Grow.
+            </div>
+        </div>
+    </a>
+</li> 
+            <li ><a href="index.html">Home</a></li>
             <li><a href="classes.html">Classes</a></li>
             <li><a href="membership.html">Membership</a></li>
             <li><a href="trainers.html">Trainers</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav> 
-    <header>
-        <h1> NeuroFlex Classes </h1>  
-        <h2>Training Sessions </h2>
-        <p> 
+    <header>  
+        <div class="header-inner">
+        <div class="badge"> 
+            <i></i>  
+            Live Schedule </div>
+        <h1> NeuroFlex <span>Classes</span> </h1>   
+         <h2> Training Sessions</h2>
+        <p class="header-desc"> 
            NeuroFlex offers a structured schedule of specialized training sessions designed 
 to improve both physical strength and mental focus. Our program includes a variety 
 of activities such as swimming, cycling, martial arts, and fitness training. 
@@ -27,144 +40,309 @@ Sessions are organized at different times during the week and are dedicated
 separately for men and women. Depending on the activity, sessions may be led by 
 a professional trainer or practiced independently.
         </p> 
-        <p> All Available Classes — Summer  2026  Schedule </p>
+        <span class="tag"> All Available Classes — Summer  2026  Schedule </span>
+     </div> 
     </header> 
-    <main>
-        <section>  
-            <table>  <thead> 
-                <tr><!--table row  -->
-                    <th> CLASS NAME </th> <!--table head -->
+    <main> 
+        <div class="legend "> 
+            <span class="legend-title">Legend:</span>
+            <span class="legend-item"><span class="dot dot-beg"></span>Begginers</span>
+            <span class="legend-item"><span class="dot dot-int"> </span>Intermediate</span>
+            <span class="legend-item"><span class="dot dot-adv"></span>Advanced</span>
+            <span class="legend-item"><span class="dot dot-all"></span>All Levels</span>
+            <span class="sep"></span>
+            <span class="legend-item"><span class="dot dot-w"></span>Only Women</span>
+            <span class="legend-item"><span class="dot dot-m"></span>Only Men </span>
+        </div>
+        <section>  <div class="table-wrap"> 
+            <table >  
+                <caption>Training Session </caption>
+                   <thead> 
+                <tr>
+                    <th> CLASS NAME </th> 
                     <th> Trainer  </th>
-                    <th> Day </th> 
+                    <th> Day(s) </th> 
                     <th> Time </th> 
                     <th> Duration </th> 
                     <th> Difficulty level </th> 
                     <th> Session Type </th>
                 </tr>  </thead> 
                 <tbody> 
-                <tr> 
-              <td> Swimming </td>  
+                <tr class="row-m"> 
+              <td rowspan="4"><a href="swimming.html"> Swimming🏊 </a>  </td>  
                      <td> Abdallah Yessaad </td> 
-                     <td> Sunday <br>  Tuesday <br> Thuersday  </td> 
-                     <td> 11:00  </td> 
-                     <td> 30  min </td> 
-                     <td> Begginers   </td> 
-                     <td> Only men </td> 
-          </tr> 
-                 <td> Swimming </td>  
+                     <td>Sun •Tue •Thu</td> 
+                     <td class="time-cell"> 11:00  </td> 
+                     <td class="dur"> 30  min </td> 
+                     <td> <span class="lvl lvl-beg"> Begginers </span>  </td> 
+                     <td> <span class="session-m">♂ Only men  </span></td> 
+          </tr>  <tr class="row-m">
                      <td> Ali Taha Bouacha  </td> 
-                     <td> Sunday <br>  Tuesday <br> Thursday  </td> 
-                     <td> 11:00  </td> 
-                     <td> 60 min </td> 
-                     <td> Intermediate   </td> 
-                     <td> Only men </td> 
+                     <td>Sun •Tue •Thu</td> 
+                     <td class="time-cell"> 11:30  </td> 
+                     <td class="dur"> 60 min </td> 
+                     <td><span class="lvl lvl-int "> Intermediate </span>   </td> 
+                     <td> <span class="session-m" >♂ Only men  </span> </td> 
           </tr>   
-              <tr>
-            <td> Swimming </td>  
+              <tr class="row-m">
                      <td> Hocine Kharchi  </td> 
-                     <td> Sunday <br>  Tuesday <br> Thursday  </td> 
-                     <td> 9:00 </td> 
-                     <td> 90 min </td> 
-                     <td> Advanced   </td> 
-                     <td> Only men </td> 
+                     <td> Sun •Tue •Thu </td> 
+                     <td class="time-cell"> 9:00 </td> 
+                     <td class="dur"> 90 min </td> 
+                     <td> <span class="lvl lvl-adv"> Advanced </span>  </td> 
+                     <td>  <span class="session-m">♂ Only men  </span></td> 
              </tr> 
-             <tr>  
-                  <td> Swimming </td>  
+             <tr class="row-m" >  
                      <td> Self-Practice </td> 
-                     <td> Sunday <br>  Tuesday <br> Thursday  </td> 
-                     <td> 9:00 </td> 
-                     <td> Open  </td> 
-                     <td> Advanced   </td> 
-                     <td> Only Men </td>  
+                     <td> Sun •Tue •Thu</td> 
+                     <td class="time-cell" > Open</td> 
+                     <td class="dur"> 90 min  </td> 
+                     <td> <span class="lvl lvl-adv"> Advanced </span>  </td> 
+                     <td> <span class="session-m">♂ Only men  </span> </td>        
              </tr> 
-             <tr> 
-                <td> Fitness / Musculation </td> 
+             <tr class="row-m"> 
+                <td rowspan="4"> <a href="fit.html"> Fitness/Strenght 🏋️‍♂️</a></td> 
                 <td> Chemseddine Saadni </td> 
-                <td> Sunday </td> 
-                <td> 17:30 </td> 
-                <td> 60 min  </td> 
-                <td> All Levels </td> 
-                <td> Only Men </td>
+                <td> Sunday</td> 
+                <td class="time-cell"> 17:30 </td> 
+                <td class="dur"> 60 min  </td> 
+                <td> <span class="lvl lvl-all "> All Levels </span> </td> 
+                <td> <span class="session-m">♂ Only men  </span> </td>
              </tr> 
-             <tr>  
-                <td> Fitness / Musculation </td> 
+             <tr class="row-m">   
                 <td> Brikci Mohammed </td> 
-                <td> Tuesday  </td> 
-                <td> 17:30 </td> 
-                <td> 60 min  </td> 
-                <td> All Levels  </td> 
-                <td> Only Men </td> 
+                <td> Tuesday   </td> 
+                <td class="time-cell"> 17:30 </td> 
+                <td class="dur"> 60 min  </td> 
+                <td> <span class="lvl lvl-all "> All Levels </span>  </td> 
+                <td> <span class="session-m">♂ Only men  </span> </td> 
             </tr> 
-              <tr>  
-                <td> Fitness / Musculation </td> 
+              <tr class="row-m">  
                 <td> Sahi  </td> 
                 <td> Thursday </td> 
-                <td> 17:30 </td> 
-                <td> 60 min  </td> 
-                <td> All Levels  </td> 
-                <td> Only Men </td> 
+                <td class="time-cell"> 17:30 </td> 
+                <td class="dur"> 60 min  </td> 
+                <td> <span class="lvl lvl-all "> All Levels </span> </td> 
+                <td> <span class="session-m">♂ Only men  </span> </td> 
             </tr>  
-            <tr> 
-                <td>Fitness / Musculation </td> 
+            <tr class="row-m"> 
                 <td> Self-Practice </td>
-                <td> Sunday <br> Tuesday <br> Thursday </td> 
-                <td> Open Gym </td> 
-                <td> 60 min </td> 
-                <td> Advanced</td> 
-                <td> Only Men </td>
-            </tr>  
-             <td> Swimming </td>  
-                     <td> Abdallah Yessaad </td> 
-                     <td> Monday <br> Wednesday <br> Friday   </td> 
-                     <td> 11:00  </td> 
-                     <td> 30  min </td> 
-                     <td> Begginers   </td> 
-                     <td> Only Women  </td> 
-          </tr> 
-                 <td> Swimming </td>  
-                     <td> Ali Taha Bouacha  </td> 
-                     <td> Sunday <br>  Tuesday <br> Thursday  </td> 
-                     <td> 11:00  </td> 
-                     <td> 60 min </td> 
-                     <td> Intermediate   </td> 
-                     <td> Only men </td> 
+                <td> Sun •Tue •Thu </td> 
+                <td class="time-cell"> Open  </td> 
+                <td class="dur"> 60 min </td> 
+                <td><span class="lvl lvl-adv"> Advanced </span> </td> 
+                <td>  <span class="session-m">♂ Only men  </span> </td> 
+                 <tr class="row-m" > 
+                   <td > <a href="Cardio.html">Cardio 🏃🚴</a> </td> 
+                 <td>Alone/Groupe</td> 
+                <td>Sun •Tue •Thu </td> 
+                <td class="time-cell">16:30</td>
+                <td class="dur">90 min </td> 
+                <td> <span class="lvl lvl-all "> All Levels </span>  </td>
+                <td><span class="session-m">♂ Only men  </span> </td> </tr>  
+            </tr>   
+             <tr class="row-m"> 
+                    <td rowspan="5"> <a href="TeamSport.html">Team Sport ⚽🏀🏐</td>   
+                    <tr>  <td>Nabil Tennoun🏐/Ali Bouziane⛹️‍♂️/Nadir Leknaoui ⚽ </td>
+                    <td>Sunday </td> 
+                    <td class="time-cell">16:30</td>  
+                    <td class="dur">120 min </td>
+                    <td><span class="lvl lvl-adv"> Advanced </span></td> 
+                    <td> <span class="session-m">♂ Only men  </span>  </td>
+                        
+                    </tr>
+
+                  <tr class="row-m">
+                <td>Yacine Djellouli 🏐/Ahmed Loubachria⛹️‍♂️/Nabil Neghiz⚽</td>
+                    <td> Tuesday </td> 
+                    <td class="time-cell">16:30</td>  
+                    <td class="dur"> 90 min  </td>
+                    <td><span class="lvl lvl-int "> Intermediate </span> </td> 
+                    <td><span class="session-m">♂ Only men  </span>  </td>
+                </tr> 
+                    <tr class="row-m">  
+                    <td>Kamel Imeloul 🏐/Mounir Benzegala⛹️‍♂️/Sanah Abd Hamid⚽ </td>
+                    <td> Thursday  </td> 
+                    <td class="time-cell">16:30</td>  
+                    <td class="dur">60 min  </td>
+                    <td> <span class="lvl lvl-beg"> Begginers </span> </td> 
+                    <td><span class="session-m">♂ Only men  </span> </td>
+                </tr>
+           </tr>  
+            <tr class="row-m"> 
+                 <td>Groupe </td>
+                    <td> Sun •Tue •Thu  </td> 
+                    <td class="time-cell">18:30</td>  
+                    <td class="dur">90 min </td>
+                    <td><span class="lvl lvl-adv"> Advanced </span></td> 
+                    <td><span class="session-m">♂ Only men  </span>  </td>
+                </tr>    
+                  <tr class="row-m">
+                <td rowspan="2"><a href="Combat.html">Combat Sports🥊🥋 </a></td>
+                <td>Mohamed Benguesmia 🥊/Ould Ali 🥋</td>
+                <td>Sunday</td> 
+                <td class="time-cell">17:00</td>
+                <td class="dur">60 min </td>
+                <td> <span class="lvl lvl-beg"> Begginers </span></td>
+                <td><span class="session-m">♂ Only men  </span> </td> </tr>
+               <tr class="row-m">
+                <td>Loucif Hamani🥊 /Sofiane Benattia 🥋</td>
+                <td>Thursday</td> 
+                <td class="time-cell">17:00</td>
+                <td class="dur">90 min </td>
+                <td><span class="lvl lvl-adv"> Advanced </span></td>
+                <td><span class="session-m">♂ Only men  </span> </td> </tr>    
+             <tr class="row-w" >  
+                  <td rowspan="4"> <a href="swimming.html">Swimming 🏊</a> </td>  
+                     <td> Rania Nefsi </td> 
+                     <td> Mon •Wed •Fri </td> 
+                     <td class="time-cell"> 11:00  </td> 
+                     <td class="dur"> 30  min </td> 
+                     <td> <span class="lvl lvl-beg"> Begginers </span>  </td>
+                     <td> <span class="session-w">♀ Only Women</span>  </td> 
+          </tr>  <tr class="row-w">
+                     <td> Nefissa Cherouati </td> 
+                     <td> Mon •Wed •Fri  </td>
+                     <td class="time-cell"> 11:30 </td> 
+                     <td class="dur"> 60 min </td> 
+                     <td> <span class="lvl lvl-int "> Intermediate </span>   </td> 
+                     <td><span class="session-w">♀ Only Women</span> </td> 
           </tr>   
-              <tr>
-            <td> Swimming </td>  
-                     <td> Hocine Kharchi  </td> 
-                     <td> Sunday <br>  Tuesday <br> Thursday  </td> 
-                     <td> 9:00 </td> 
-                     <td> 90 min </td> 
-                     <td> Advanced   </td> 
-                     <td> Only men </td> 
+              <tr class="row-w"> 
+                     <td> Amel Melih  </td> 
+                     <td>  Mon •Wed •Fri </td>
+                     <td class="time-cell"> 9:00 </td> 
+                     <td class="dur"> 90 min </td> 
+                     <td> <span class="lvl lvl-adv"> Advanced </span>  </td> 
+                     <td><span class="session-w">♀ Only Women</span></td> 
              </tr> 
-             <tr>  
-                  <td> Swimming </td>  
+             <tr class="row-m">   
                      <td> Self-Practice </td> 
-                     <td> Sunday <br>  Tuesday <br> Thursday  </td> 
-                     <td> 9:00 </td> 
-                     <td> Open  </td> 
-                     <td> Advanced   </td> 
-                     <td> Only Men </td>  
+                     <td>  Mon •Wed •Fri  </td>
+                     <td class="time-cell"> Open </td> 
+                     <td class="dur"> 90 min   </td> 
+                     <td> <span class="lvl lvl-adv"> Advanced </span>   </td> 
+                     <td><span class="session-w">♀ Only Women</span> </td>  
              </tr>   
-          
+             <tr class="row-w">
+                <td rowspan="4"><a href="fit.html">Fitness/Strenght 🏋️‍♂️</a></td>  
+                <td>Sabrina Boudissa</td>
+                <td>Monday</td> 
+                <td class="time-cell">17:00</td>
+                <td class="dur">60 min </td> 
+                <td><span class="lvl lvl-all">All Levels</span></td> 
+                <td><span class="session-w">♀ Only Women</span></td>
+             </tr>  
+             <tr> 
+                 <td>Nadia Ait Saada</td>
+                <td>Wednesday</td> 
+                <td class="time-cell">17:00</td>
+                <td class="dur">60 min </td> 
+                <td><span class="lvl lvl-all">All Levels</span></td> 
+                <td><span class="session-w">♀ Only Women</span></td>
+             </tr>  
+              <tr> 
+                 <td>Lina Bouzidi  </td>
+                <td>Friday </td> 
+                <td class="time-cell">17:00</td>
+                <td class="dur">60 min </td> 
+                <td><span class="lvl lvl-all">All Levels</span></td> 
+                <td><span class="session-w">♀ Only Women</span></td>
+             </tr>   
+              <tr> 
+                 <td>Self-Practice </td>
+                <td>Mon •Wed •Fri </td> 
+                <td class="time-cell">Open</td>
+                <td class="dur">60 min </td> 
+                <td><span class="lvl lvl-adv">Advanced</span></td> 
+                <td><span class="session-w">♀ Only Women</span></td>
+             </tr>  
+
+             <tr class="row-w"> 
+                <td ><a href="Cardio.html"> Cardio 🏃🚴</a> </td> 
+                <td>Alone/Groupe</td> 
+                <td> Mon •Wed  •Fri   </td>
+                <td class="time-cell">16:30</td>
+                <td class="dur">90 min </td> 
+                <td> <span class="lvl lvl-all "> All Levels </span>  </td>
+                <td><span class="session-w">♀ Only Women</span>   </td> 
+             </tr> 
+               
+                    <tr class="row-w"> 
+                         <td rowspan="4"> <a href="TeamSport.html">Team Sport ⚽🏀🏐</a></td>
+                         <td>Fatima-Zohra Oukazi 🏐/Chabi Yasmina ⛹️‍♂️/Radia Fertoul ⚽</td>
+                    <td> Monday </td> 
+                    <td class="time-cell">16:30</td>  
+                    <td class="dur">120 min </td>
+                    <td><span class="lvl lvl-adv"> Advanced </span> </td> 
+                    <td><span class="session-w">♀ Only Women</span>  </td>
+                        
+                    </tr>
+
+                  <tr class="row-w"> 
+                <td>Mouni Abderrahim🏐/Nabil Neghiz⛹️‍♂️/Naïma Laouadi⚽</td>
+                    <td> Wednesday</td>
+                    <td class="time-cell">16:30</td>  
+                    <td class="dur">90 min </td>
+                    <td><span class="lvl lvl-int "> Intermediate </span> </td> 
+                    <td><span class="session-w">♀ Only Women</span>   </td>
+                </tr> 
+                    <tr class="row-w" >  
+                    <td>Mélinda Hennaoui🏐/Shahnez Boushaki⛹️‍♂️/Nassiba Laghouati⚽</td>
+                    <td>Friday </td> 
+                    <td class="time-cell">16:30</td>  
+                    <td class="dur">60 min  </td>
+                    <td> <span class="lvl lvl-beg"> Begginers </span> </td> 
+                    <td><span class="session-w">♀ Only Women</span>  </td>
+                </tr>
+           </tr>   <tr class="row-w">  
+            <td>Groupe </td>
+                    <td>Saturday </td> 
+                    <td class="time-cell">18:30</td>  
+                    <td class="dur">90 min </td>
+                    <td><span class="lvl lvl-adv"> Advanced </td> 
+                    <td><span class="session-w">♀ Only Women</span>  </td>
+                </tr>  
+                  <tr class="row-w"> 
+                    <td rowspan="2"><a href="Comabt.html">Combat Sports 🥊🥋</a></td>
+                <td> Samira Benhammou🥊/ Soraya Bouchareb 🥋</td>
+                <td>Monday </td> 
+                <td class="time-cell">17:00</td>
+                <td class="dur">60 min </td>
+                <td ><span class="lvl lvl-beg"> Begginers </span></td>
+                <td><span class="session-w">♀ Only Women</span> </tr>
+               <tr class="row-w ">
+                <td>Nadia Tighilt  🥊/Yamina Mekkaoui🥋</td>
+                <td>Wednesday </td> 
+                <td class="time-cell">17:00</td>
+                <td class="dur">90 min </td>
+                <td class="lvl lvl-adv ">Advanced</td>
+                <td><span class="session-w">♀ Only Women</span> </td> </tr> 
 </tbody> 
 <tfoot> 
-
+    <tr> 
+        <td colspan="7" style="padding : 14px 18px ;font-size : 11px;
+         ;color: var(--muted);font-family: 'space Mono' ,mono space;
+        border-top: 1px solid   rgba(0,229,255,08) ;"> 
+        " * Open = self-paced, no flixed slot  &nbsp;·&nbsp;
+        Contact reception to book "
+    </td>
+    </tr>
 </tfoot>
-            </table>
+</table> 
+            </div>
         </section>
     </main>
-=======
-    </nav>
-     </header>
 <footer>
-     <p>&copy; 2026 NeuraFlex. All rights reserved.</p>
-     <a href="https://www.instagram.com/">instgram</a>
-     <a href="https://www.linkedin.com/">linkden</a>
-     <a href="https://www.facebook.com/">facebok</a>
-     <p>number: +213 797522948 .</p>
-     <p>adress/ 123 Fitness St, Constantine City</p>
+<span class="footer-brand">NeuroFlex</span> 
+<p>© 2026 NeuroFlex. All rights reserved.</p> 
+<p>📍 123 Fitness St, Constantine City</p>
+<p>📞 +213 797 522 948</p>
+<div class="footer-links">
+<a href="https://www.instagram.com/" target="_blank">Instagram</a>
+<a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+<a href="https://www.facebook.com/" target="_blank">Facebook</a> 
+</div> 
 </footer>
-
+</body>
 </html> 
