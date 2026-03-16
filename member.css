@@ -38,10 +38,12 @@ h2{
     
     width: 650px;
     margin:0 auto; /* centers it horizontally */
-    background:#163d3d;
+   background: rgba(255,255,255,0.1);
+   backdrop-filter: blur(10px);
     padding:30px;
     border-radius:10px;
-    box-shadow:0 10px 20px rgba(0,0,0,0.3);
+   box-shadow:0 8px 32px rgba(0,0,0,0.2);
+    border:1px solid rgba(255,255,255,0.2);
 }  
 .test h2{ 
     padding-bottom: 40px; 
