@@ -9,8 +9,9 @@
 
 /* Page background */
 body{
-    background:#0d2e2e;
-    min-height:100vh;
+ background: linear-gradient(135deg, #062323 0%, #0a2e2e 50%, #062323 100%);
+    min-height:100vh; 
+   
 }
 
 /* Title */
@@ -20,16 +21,31 @@ h2{
     margin-top:40px;
     margin-bottom:20px;
 }
+.test{ 
+    background-image: url(fondos.jfif) ; 
+    background-size: 1215px 1400px ;
+
+
+    padding: 60px 0px ;
+} 
+#header p{ 
+     font-family: 'Bebas Neue', cursive;
+} 
 
 
 /* Center the form */
-#register{
+#register{ 
+    
     width: 650px;
     margin:0 auto; /* centers it horizontally */
     background:#163d3d;
     padding:30px;
     border-radius:10px;
     box-shadow:0 10px 20px rgba(0,0,0,0.3);
+}  
+.test h2{ 
+    padding-bottom: 40px; 
+    font-size:100px; 
 }
 
 /* Fieldset */
@@ -82,10 +98,9 @@ button:hover{
 /* Payment section */
 #payement{
     background:#163d3d;
-    width:100%;
-    margin:40px auto; /* centers the section */
+   /* centers the section */
     padding:30px 0;
-    text-align:center; 
+    text-align:center;  
 
 }
 
@@ -129,15 +144,15 @@ button:hover{
 }
 
 .GOLD {
-    background: #FFD700; 
+    background: #f0c040; 
     color: #0d2e2e;
 }
 .SILVER {
-    background: #C0C0C0; 
+    background:  #c0c0c0;; 
     color: #0d2e2e;
 }
 .BRONZE {
-    background: #CD7F32;
+    background:  #cd7f32;
     color: #0d2e2e;
 }
 
@@ -169,7 +184,7 @@ button:hover{
 }
 #header{
      background: linear-gradient(135deg, #062323 0%, #0a2e2e 50%, #062323 100%);  
-     border-bottom: 1px solid ; border-color: var(--teal); 
+ 
      
 }
 h1{
@@ -186,4 +201,4 @@ p{
  font-size: 14px; color: #cbf3f3;
   line-height: 1.9;
   font-weight: 300;
-}
+} 
