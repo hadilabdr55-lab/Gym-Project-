@@ -58,7 +58,7 @@ nav ul{
     color: var(--teal);
     line-height: 1 ;
 } 
-.nav-logo-sub{ 
+.nav-logo-NF{ 
     font-family: 'Space Mono',monospace;
     font-size: 7px;letter-spacing: .15em;
     color: var(--muted);text-transform: uppercase;
