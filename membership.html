@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Plans</title>
+</head>
+
+<body>
+     <header>
+    <nav>
+        <ul> <li class="nav-logo-wrap" style="display:flex; align-items: center;margin-right: auto;"><a href="index.html" class="nav-logo">
+            <img src="image/logo.jpg" alt="NeuroFlex">
+        <div>
+            <div class="nav-logo-text">NeuroFlex</div> 
+            <div class="nav-logo-sub">Where Minds Meet. Bodies
+                Grow.
+            </div>
+        </div>
+    </a>
+</li> 
+            <li ><a href="index.html">Home</a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li><a href="membership.html">Membership</a></li>
+            <li><a href="trainers.html">Trainers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="member.css">
+        </ul>
+    </nav>
+     </header>
+     <main>
+     <h1>neuroflex Membership </h1><br>
+     <h2>Gym Packages:</h2>
+     <p>Stay active and healthy with our student-friendly gym plans.Choose the membership that fits your schedule and fitness goals</p>
+     <section id="Plans">
+        <div class="GOLD">
+            <h3>Gold (annual)</h3><br>
+            <dl>
+                <dt>-Benefit 1</dt>
+                <dd>Access to all  gym equipment </dd>
+                <dt>-Benefit 2</dt>
+                <dd>sauna  access included</dd>
+                <dt>-Benefit 3</dt>
+                <dd>Personal training sessions</dd>
+                <dt>Price</dt>
+                <dd>$400</dd>
+            </dl>
+        </div>
+        <div class="SILVER">
+             <h3>Silver (quarterly)</h3><br>
+            <dl>
+                <dt>-Benefit 1</dt>
+                <dd>Access to all gym equipment</dd>
+                <dt>-Benefit 2</dt>
+                <dd>Free Fitness Assessment</dd>
+                <dt>-Benefit 3</dt>
+                <dd>8 sessions per month</dd><br>
+                <dt>Price</dt>
+                <dd>$150</dd>
+            </dl>
+        </div>
+        <div class="BRONZE">
+            <h3>Bronze (monthly)</h3><br>
+            <dl>
+                <dt>-Benefit 1</dt>
+                <dd>4 sessions per month</dd>
+                <dt>-Benefit 2</dt>
+                <dd>Locker Room Access</dd>
+                <dt>-Benefit 3</dt>
+                <dd>Discount on Personal Training 10%</dd><br>
+                <dt>Price</dt>
+                <dd>$100</dd>
+            </dl>
+        </div>
+     </section>
+     <br>
+     <h2>Student Registration</h2>
+     <section id="register">
+        <form >
+         <fieldset>
+          <legend>Personal Information</legend>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+
+            <label for="date">Date of birth:</label>
+            <input type="date" id="date" name="date" required><br><br>
+
+            <label for="student_id">Student ID:</label>
+            <input type="text" id="student_id" name="student_id" required><br><br>
+         </fieldset>  
+         <fieldset>
+            <legend>Membership Details</legend>
+            <label for="membership_plan">Select Membership Plan:</label>
+            <select id="membership_plan" name="membership_plan" required>
+                <option value="">--Select--</option>
+                <option value="gold">Gold (annual)</option>
+                <option value="silver">Silver (quarterly)</option>
+                <option value="bronze">Bronze (monthly)</option>
+            </select><br><br>
+         </fieldset>
+         <fieldset> 
+            <legend> Agreement</legend>
+            <label for="checkbox">I agree to the terms and conditions:</label>
+            <input type="checkbox" id="checkbox" name="checkbox" required><br><br>
+            <label for="message">Fitness Goals:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+         </fieldset>
+
+            <button type="submit">Register</button>
+        </form>
+     </section>
+     <section id="payement">
+        <h2>payment method </h2>
+        <p>We accept the following payment options:</p>
+        <img src="image/visa.jpg" width="200" height="100" alt="Visa">
+        <img src="image/master.jpg" width="200" height="100" alt="MasterCard">
+        <img src="image/paypal.jpg" width="200" height="100" alt="PayPal">
+        <img src="image/alger.png" width="200" height="100" alt="Card edahabia">
+     </section>
+
+ </main>
+<footer>
+<span class="footer-brand">NeuroFlex</span> 
+<p>© 2026 NeuroFlex. All rights reserved.</p> 
+<p>📍 123 Fitness St, Constantine City</p>
+<p>📞 +213 797 522 948</p>
+<div class="footer-links">
+<a href="https://www.instagram.com/" target="_blank">Instagram</a>
+<a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+<a href="https://www.facebook.com/" target="_blank">Facebook</a> 
+</div> 
+</footer>
+</body>
+</html>
