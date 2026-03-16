@@ -48,7 +48,7 @@ nav ul {
   font-size: 22px; letter-spacing: .12em;
   color: var(--teal); line-height: 1;
 }
-.nav-logo-NF{
+.nav-logo-NF {
   font-family: 'Space Mono', monospace;
   font-size: 7px; letter-spacing: .15em;
   color: var(--muted); text-transform: uppercase; line-height: 1;
@@ -60,7 +60,7 @@ nav ul li a {
   transition: color .2s, background .2s;
 }
 nav ul li a:hover, nav ul li a[aria-current] {
-  color: var(--teal); background: var(--teal-glow);
+  color: var(--muted); background: var(--teal-glow);
 }
 
 /* ── HERO ── */
@@ -87,6 +87,8 @@ nav ul li a:hover, nav ul li a[aria-current] {
 }
 
 
+
+
 #hero h1 {
   font-family: 'Bebas Neue', cursive;
   font-size: clamp(58px, 8vw, 110px);
@@ -96,21 +98,21 @@ nav ul li a:hover, nav ul li a[aria-current] {
 #hero h1 em {
   color: var(--teal); font-style: normal;
 }
-.hero-sub {
+h3 {
   font-family: 'Bebas Neue', cursive;
   font-size: clamp(18px, 2.5vw, 28px);
   letter-spacing: .12em; color: var(--muted);
   margin-bottom: 24px;
 }
-.hero-desc {
+.article {
   font-size: 14px; color: var(--muted);
   line-height: 1.9; max-width: 500px;
   font-weight: 300; margin-bottom: 36px;
 }
-.hero-actions {
+.action {
   display: flex; gap: 14px; flex-wrap: wrap; align-items: center;
 }
-.btn-primary {
+.btn {
   display: inline-block;
   padding: 13px 32px;
   background: var(--teal);
@@ -121,8 +123,8 @@ nav ul li a:hover, nav ul li a[aria-current] {
   text-decoration: none; border-radius: 2px;
   transition: background .2s, transform .15s;
 }
-.btn-primary:hover { background: var(--teal-mid); transform: translateY(-1px); }
-.btn-ghost {
+.btn :hover { background: var(--teal-mid); transform: translateY(-1px); }
+.btn-ghost:hover{
   display: inline-block;
   padding: 12px 28px;
   border: 1px solid rgba(50,140,140,.35);
@@ -133,17 +135,17 @@ nav ul li a:hover, nav ul li a[aria-current] {
   transition: background .2s, border-color .2s;
 }
 .btn-ghost:hover { background: var(--teal-glow); border-color: var(--teal); }
-.hero-stats {
+.stat {
   display: flex; gap: 36px; margin-top: 52px;
   padding-top: 36px;
   border-top: 1px solid var(--grey2);
 }
-.stat-num {
+.num {
   font-family: 'Bebas Neue', cursive;
   font-size: 38px; letter-spacing: .06em;
   color: var(--teal); line-height: 1;
 }
-.stat-label {
+.type {
   font-family: 'Space Mono', monospace;
   font-size: 9px; letter-spacing: .14em;
   text-transform: uppercase; color: var(--muted);
