@@ -85,23 +85,8 @@ nav ul li a:hover, nav ul li a[aria-current] {
   position: relative; z-index: 1;
   max-width: 620px;
 }
-.hero-eyebrow {
-  display: inline-flex; align-items: center; gap: 8px;
-  font-family: 'Space Mono', monospace;
-  font-size: 10px; letter-spacing: .18em; text-transform: uppercase;
-  color: var(--teal); margin-bottom: 24px;
-  border: 1px solid rgba(50,140,140,.25);
-  background: rgba(50,140,140,.08);
-  padding: 5px 14px; border-radius: 2px;
-}
-.hero-eyebrow span {
-  width: 6px; height: 6px; border-radius: 50%;
-  background: var(--teal); display: inline-block;
-  animation: blink 2s ease-in-out infinite;
-}
-@keyframes blink {
-  0%,100%{ opacity:1; } 50%{ opacity:.2; }
-}
+
+
 #hero h1 {
   font-family: 'Bebas Neue', cursive;
   font-size: clamp(58px, 8vw, 110px);
