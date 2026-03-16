@@ -306,7 +306,7 @@ section { padding: 88px 60px; }
 footer {
   background: var(--grey); border-top: 1px solid var(--grey2);
   padding: 36px 60px; display: flex;
-  align-items: center; gap: 32px; flex-wrap: wrap;
+  align-items: center; gap: 32px; 
 }
 .footer-brand {
   font-family: 'Bebas Neue', cursive; font-size: 22px;
