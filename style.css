@@ -80,16 +80,7 @@ nav ul li a:hover, nav ul li a[aria-current] {
     radial-gradient(ellipse 40% 40% at 10% 80%, rgba(27,86,86,.18) 0%, transparent 60%);
   pointer-events: none;
 }
-#hero::after {
-  content: 'NEUROFLEX';
-  position: absolute; right: -30px; bottom: -20px;
-  font-family: 'Bebas Neue', cursive;
-  font-size: clamp(80px, 14vw, 220px);
-  color: transparent;
-  -webkit-text-stroke: 1px var(--grey3);
-  pointer-events: none; line-height: 1; user-select: none;
-  opacity: .7;
-}
+
 .hero-inner {
   position: relative; z-index: 1;
   max-width: 620px;
