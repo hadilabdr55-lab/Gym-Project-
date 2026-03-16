@@ -318,7 +318,7 @@ section { padding: 88px 60px; }
 .plan-gold   .plan-cta { background: rgba(240,192,64,.18); color: #f0c040; border: 1px solid rgba(240,192,64,.35); }
 .plan-gold   .plan-cta:hover { background: rgba(240,192,64,.3); }
 
-/* ── FOOTER ── */
+
 
 footer {
   background: var(--grey); border-top: 1px solid var(--grey2);
@@ -331,14 +331,7 @@ footer {
 }
 footer p { font-size: 13px; color: var(--muted); }
 .footer-links { display: flex; gap: 14px; }
-footer a { font-size: 12px; color: var(--muted);  font-weight: 500 ; text-decoration: none; }
-footer a:hover { color: var(--muted); border-bottom: solid 1px wheat; }
-  
-@media (max-width: 768px) {
-  nav, section, footer { padding-left: 20px; padding-right: 20px; }
-  #hero { padding: 100px 20px 60px; }
-  #hero h1 { font-size: 52px; }
-  .hero-stats { gap: 20px; flex-wrap: wrap; }
-  .facilities-grid { grid-template-columns: 1fr; }
-  .plans-grid { grid-template-columns: 1fr; }
+.footer-links a { font-size: 12px; color: var(--muted);  font-weight: 500 ; text-decoration: none; }
+.footer-links a:hover { color: var(--muted); border-bottom: solid 1px wheat; }
+
 } 
